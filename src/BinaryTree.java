@@ -8,6 +8,7 @@ public class BinaryTree{
 		}
 
 		if(word.compareTo(current.word)){
+			current.left = addRecursive(current.left, word);
 			
 		}
 	}
