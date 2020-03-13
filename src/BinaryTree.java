@@ -49,7 +49,7 @@ public class BinaryTree{
 
 	}
 
-	public void traverseInOrder(Node node) throws InterruptedException {
+	public void traverseInOrder(Node node){
 
 		if (node != null) {
 				
@@ -59,17 +59,3 @@ public class BinaryTree{
 		}
 	}
 }
-/*
-class Node {
-	
-    int value;
-    Node left;
-    Node right;
- 
-    Node(int value) {
-        this.value = value;
-        right = null;
-        left = null;
-    }
-}
-*/
