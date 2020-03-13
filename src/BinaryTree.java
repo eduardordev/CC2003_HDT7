@@ -49,7 +49,7 @@ public class BinaryTree{
 
 	}
 
-	public void traverseInOrder(Node node) {
+	public void traverseInOrder(Node node) throws InterruptedException {
 
 		if (node != null) {
 				
