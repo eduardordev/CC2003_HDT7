@@ -18,10 +18,14 @@ public class Main{
 
 		BinaryTree b = new BinaryTree();
 
-		b.add(var1);
-		b.printer();
-		
-	
+		b.addNode(var1);
+		b.addNode(var2);
+		b.addNode(var3);
+		b.addNode(var4);
+		b.addNode(var5);
+		b.addNode(var6);
+		b.traverseInOrder(b.root);
+
 		
 	}
 }
